@@ -1,0 +1,7 @@
+# 系统文件和目录
+.DS_Store
+.Trash
+.viminfo
+.nvm/
+Library/
+Pictures/

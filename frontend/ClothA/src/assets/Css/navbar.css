@@ -1,0 +1,167 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    color: rgb(240, 235, 227);
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(246, 245, 242);
+}
+
+.Banner[data-v-3e1cbf4c] {
+    width: 100vw !important;
+    height: 120px !important;
+    background-color: rgb(240, 235, 227) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-radius: 15px !important;
+    z-index: 1000;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 30px;
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9f5000;
+}
+
+h1 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 30px;
+    list-style: none;
+
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover,
+h1 a:hover {
+    color: #9f5000;
+    text-decoration: none;
+}
+
+.li2 {
+    margin-left: 30px;
+    margin-top: 10%;
+}
+
+.dropdown-content,
+.sub-dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content,
+.sub-dropdown:hover .sub-dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: rgb(240, 235, 227);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    /* 确保下拉菜单在其他内容之上 */
+    border-radius: 25px;
+    top: 100%;
+    /* 下拉菜单位置在父项下方 */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sub-dropdown-content {
+    position: absolute;
+    background-color: rgb(240, 235, 227);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* 确保子下拉菜单在下拉菜单之上 */
+    top: 100%;
+    /* 子下拉菜单位置在父项下方 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    color: black;
+}
+
+.dropdown-content li,
+.sub-dropdown-content li {
+    padding: 10px 12px;
+}
+
+.dropdown-content li:hover,
+.sub-dropdown-content li:hover {
+    background-color: #f1f1f1;
+    color: #9f5000;
+}
+
+.dropdownA {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
